@@ -1,0 +1,16 @@
+.cardRow {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  padding-bottom: 45px;
+  margin-top: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardRow {
+    justify-content: center;
+  }
+}

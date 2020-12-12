@@ -1,0 +1,45 @@
+.carouselMove:hover {
+  outline: 3px solid #f08a21;
+  outline-offset: 5px;
+  transition: 0.2s ease-in;
+  transform: scale(1.1);
+}
+
+.carousel-titles:after {
+  transform: scaleX(1);
+  transition: 500ms ease;
+}
+
+.carouselImage:hover {
+  transform: scale(1.1);
+}
+.carouselImage {
+  overflow: hidden;
+}
+
+.carouselImage {
+  transition: transform 0.5s ease;
+}
+
+/*
+                 outline: "3px solid #197b9f",
+                  outlineOffset: "4px"
+
+.carousel-titles {
+  color: #666;
+  display: inline-block;
+  margin: 0;
+  text-transform: uppercase;
+}
+.carousel-titles:after {
+  display: block;
+  content: "";
+  outline: 3px solid #197b9f;
+  outline-offset: 5px;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.carousel-titles:hover:after {
+  transform: scaleX(1);
+}
+*/

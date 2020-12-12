@@ -1,0 +1,43 @@
+.containerItem {
+  padding-right: 4px;
+  padding-left: 4px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.figures {
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+.image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+.image:hover {
+  transform: scale(1.1);
+}
+.card {
+  background-color: #fff;
+  margin: -30px 10px 0;
+  padding: 20px 10px 12px;
+  position: relative;
+  height: 80px;
+  z-index: 15;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card:hover {
+  outline: 3px solid #fff;
+  outline-offset: 5px;
+  transition: 0.2s ease-in;
+}
+.title {
+  margin: 0 0 15px;
+  color: #197b9f;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+}
