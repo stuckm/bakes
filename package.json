@@ -26,6 +26,9 @@
     "typography": "0.16.19",
     "typography-theme-kirkham": "0.16.19"
   },
+    "resolutions": {
+    "sharp": "0.24.0"
+  },
   "devDependencies": {
     "prettier": "2.1.2"
   },
@@ -48,8 +51,5 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "resolutions": {
-    "sharp": "0.24.0"
-  },
+  }
 }
